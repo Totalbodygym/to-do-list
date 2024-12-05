@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "To Do List",
+    "slug": "to-do-list",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mattkmartin1.todolist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mattkmartin1.todolist"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "58d5ad2b-2a2b-4644-a471-04f28160aa55"
+      }
+    },
+    "owner": "mattkmartin1",
+    "updates": {
+      "url": "https://u.expo.dev/58d5ad2b-2a2b-4644-a471-04f28160aa55"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
